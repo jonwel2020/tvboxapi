@@ -1,0 +1,156 @@
+{
+    "看电视": " www.cctv.com ",
+    "友情提醒": "看电视提醒您，切勿付费购买。",
+    "spider": "https://tvbox.cainisi.cf/jar/fty0101.jar;md5;fd784008ab71d81a178564841059756d",
+    "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+    "sites": [
+
+        {
+            "key": "haiwaikan",
+            "name": "海外看",
+            "type": 1,
+            "api": "https://haiwaikan.com/api.php/provide/vod",
+            "searchable": 1,
+            "changeable": 1,
+            "categories": [
+                "纪录片",
+                "经典片"
+            ]
+        },
+        {
+            "key": "说明",
+            "name": "请勿相信视频中任何广告",
+            "type": 3,
+            "api": "csp_XPath",
+            "searchable": 0,
+            "changeable": 0
+        }
+    ],
+    "parses": [
+        {
+            "name": "xmflv",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url="
+        }
+    ],
+    "flags": [
+        "youku",
+        "migu"
+    ],
+    "rules": [
+        {
+            "name": "proxy",
+            "hosts": [
+                "raw.githubusercontent.com",
+                "googlevideo.com",
+                ".*ulivetv.*"
+            ]
+        },
+
+        {
+            "name": "農民嗅探",
+            "hosts": [
+                "toutiaovod.com"
+            ],
+            "regex": [
+                "video/tos/cn"
+            ]
+        }
+    ],
+    "doh": [
+        {
+            "name": "Quad9",
+            "url": "https://dns.quad9.net/dns-quer",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112"
+            ]
+        }
+    ],
+    "ads": [
+        "mozai.4gtv.tv"
+    ],
+    "lives": [
+        {
+            "name": "直播接口（点击切换）",
+            "type": 0,
+            "url": "https://gitee.com/tv2785/tvbox/raw/master/index",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+            "playerType": 1
+        },
+                {
+            "name": "移动专用接口（10086）",
+            "type": 0,
+            "url": "https://gitee.com/tv2785/tvbox/raw/master/10086",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+            "playerType": 1
+        },
+                        {
+            "name": "电信专用接口（10000）",
+            "type": 0,
+            "url": "https://gitee.com/tv2785/tvbox/raw/master/10000",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+            "playerType": 1
+        },
+                        {
+            "name": "联通专用接口（10010）",
+            "type": 0,
+            "url": "https://gitee.com/tv2785/tvbox/raw/master/10010",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+            "playerType": 1
+        },
+                        {
+            "name": "教育专用接口（21198）",
+            "type": 0,
+            "url": "https://gitee.com/tv2785/tvbox/raw/master/edu",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+            "playerType": 1
+        },
+                        {
+            "name": "电影专区接口（movie）",
+            "type": 0,
+            "url": "https://gitee.com/tv2785/tvbox/raw/master/movie",
+            "playerType": 1
+        },
+                        {
+            "name": "电视剧专区接口（dianshiju）",
+            "type": 0,
+            "url": "https://gitee.com/tv2785/tvbox/raw/master/dianshiju",
+            "playerType": 1
+        },
+                        {
+            "name": "纪录片专区接口（jilupian）",
+            "type": 0,
+            "url": "https://gitee.com/tv2785/tvbox/raw/master/jilupian",
+            "playerType": 1
+        },
+        {
+            "name": "2024年春晚专区（贺新春）",
+            "type": 0,
+            "url": "https://gitee.com/tv2785/tvbox/raw/master/chunwan",
+            "playerType": 1
+        },
+          {
+            "name": "音乐专区接口（music）",
+            "type": 0,
+            "url": "https://gitee.com/tv2785/tvbox/raw/master/music",
+            "playerType": 1
+        },
+          {
+            "name": "广播专区接口（radio）",
+            "type": 0,
+            "url": "https://gitee.com/tv2785/tvbox/raw/master/fm",
+            "playerType": 1
+        }
+    ]
+}
