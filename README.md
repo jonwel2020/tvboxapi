@@ -1,5 +1,34 @@
 # 有效的TVBox配置文件汇总
 ----新增20250717
+http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌
+http://jk.itvbox.cc:66/可视TV/云星日记/仓库/api.json
+http://52bsj.vip:98/wuaihouse
+https://cyuan.netlify.app/tvbox/duo.json
+https://weixine.net/api.json
+https://cf.weixine.net/api.json
+https://cyuan.netlify.app/tvbox/lc.txt
+https://cyuan.netlify.app/tvbox/store18.json
+
+http://饭太硬.ml/tv
+http://yydsys.top/duo
+http://cdn.yydsys.top/duo
+http://yydsys.top/duo/ali
+http://我不是.肥猫.love:63/接口禁止贩卖
+https://gh.t4tv.hz.cz/newtang.bmp
+https://tvbox.cainisi.cf
+https://pastebin.com/raw/5NHaxyGR
+http://xhww.fun:63/小米/DEMO.json
+
+https://la.kstore.space/download/2863/01.txt
+
+https://cyuan.netlify.app/tvbox/lives/18+/18+2023.txt
+https://cyuan.netlify.app/tvbox/lives/18+/18+千部独家传媒无水印来袭tvlist.txt
+
+
+https://jsd.cdn.zzko.cn/gh/ls125781003/dmtg@master/zy.json
+
+
+
 TVBox各路大佬配置（排名不分先后）：
 （1）饭太硬：http://www.饭太硬.top/tv/
 
